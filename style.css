@@ -36,6 +36,11 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
+  line-height: 1.6;
+}
+
+p {
+  text-wrap: pretty;
 }
 
 a {
@@ -103,13 +108,14 @@ a:hover {
 .intro h1 {
   margin: 0 0 1rem;
   font-size: clamp(2rem, 8vw, 3.25rem);
-  line-height: 1.1;
+  line-height: 1.5;
 }
 
 .summary {
   margin: 0 0 1.5rem;
   color: var(--muted);
   font-size: 1.25rem;
+  line-height: 1.5;
 }
 
 .contact-list {
@@ -128,7 +134,7 @@ a:hover {
 .section h2,
 .case-section h2 {
   margin: 0 0 1rem;
-  font-size: 1.25rem;
+  font-size: 1.6rem;
 }
 
 .skills {
@@ -141,7 +147,8 @@ a:hover {
   display: grid;
   grid-template-columns: minmax(9rem, 12rem) 1fr;
   gap: 0.25rem 1rem;
-  padding-block: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 0.75rem;
   border-top: 1px solid var(--border);
 }
 
@@ -176,7 +183,7 @@ a:hover {
 
 .project-heading h3 {
   margin: 0;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
 }
 
 .status {
@@ -209,18 +216,10 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.eyebrow {
-  margin: 0 0 0.5rem;
-  color: var(--muted);
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 .case-header h1 {
   margin: 0 0 0.75rem;
   font-size: clamp(1.8rem, 6vw, 2.5rem);
-  line-height: 1.15;
+  line-height: 1.5;
 }
 
 .case-header .stack,
@@ -235,7 +234,7 @@ a:hover {
 
 .case-section h2 {
   margin-bottom: 0.5rem;
-  font-size: 1.15rem;
+  font-size: 1.35rem;
 }
 
 .case-section p,
