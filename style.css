@@ -223,7 +223,8 @@ a:hover {
   line-height: 1.15;
 }
 
-.case-header .stack {
+.case-header .stack,
+.case-header .role {
   margin: 0;
   color: var(--muted);
 }
