@@ -131,6 +131,29 @@ a:hover {
   font-size: 1.25rem;
 }
 
+.skills {
+  display: grid;
+  gap: 0.5rem;
+  margin: 1rem 0 0;
+}
+
+.skills div {
+  display: grid;
+  grid-template-columns: minmax(9rem, 12rem) 1fr;
+  gap: 0.25rem 1rem;
+  padding-block: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.skills dt {
+  font-weight: 700;
+}
+
+.skills dd {
+  margin: 0;
+  color: var(--muted);
+}
+
 .project-list {
   display: grid;
   gap: 1rem;
@@ -220,4 +243,11 @@ a:hover {
   border-top: 1px solid var(--border);
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+@media (max-width: 32rem) {
+  .skills div {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
 }
